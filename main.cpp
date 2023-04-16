@@ -13,6 +13,7 @@ int main() {
     for (book b: results) {
         cout << b.title << " by " << b.author << endl;
     }
+   
     db.displayAllBooks();
     return 0;
 }
